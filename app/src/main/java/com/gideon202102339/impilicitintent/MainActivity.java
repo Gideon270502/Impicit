@@ -91,4 +91,9 @@ public class MainActivity extends AppCompatActivity {
         Intent bluetoothIntent = new Intent(Settings.ACTION_BLUETOOTH_SETTINGS);
         startActivity(bluetoothIntent);
     }
+    public void tampilGoogleDrive(View view){
+        Intent googledrive = new Intent(Intent.ACTION_MAIN);
+        googledrive.addCategory(Intent.CATEGORY_LAUNCHER);
+        startActivity(googledrive);
+    }
 }
